@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btnClickMe = findViewById<Button>(R.id.myButton)
-        btnClickMe.setOnCLickListener { /*it:view!*/
+        btnClickMe.setOnClickListener { /*it:view!*/
             btnClickMe.text = "Haha Click Me"
         }
     }
